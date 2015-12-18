@@ -3,7 +3,6 @@ $(".lightBoxLink").on("click", function(){
 		$(this).attr("src"));
 	$(".outerLightBox").fadeIn
 	(2500);
-})
 
 if ($(this).attr("src")== "lion.jpg"){
 	$("#text1").text("You looking at me");
@@ -13,7 +12,6 @@ if ($(this).attr("src")== "lion.jpg"){
 else if ($(this).attr("src") == "Zebra.jpg"){
 	$("img").show();
 	$("#text1").text("I have stripes");
-	
 } 
 
 else{
@@ -22,8 +20,8 @@ else{
 	$("#text1").css({
 		"margin":"300px"
 	});
-
-};
+}
+});
 
 $(".outerLightBox").on("click",function(e){
 	e.preventDefault();
