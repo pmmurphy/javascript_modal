@@ -33,6 +33,6 @@ $(".outerLightBox").on("click",function(e){
 // when clicked on an anonymous function runs  and $.this creates a new jquery object 
 
 
-// .attr()this method can get or set a specified attribut and its vlue to get the value of an attribute you spedify the name of the attribute in the parenthese.
+// .attr()this method can get or set a specified attribut its vlue to get the value of an attribute you spedify the name of the attribute in the parenthese.
 // the .on method creates an event listener, which waits for when clicks on it it triggers an anonymous function
-
+ // click on, fadeIn ,Lion pic will appear. Zebra picture 
