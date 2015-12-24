@@ -30,3 +30,5 @@ $(".outerLightBox").on("click",function(e){
 });
 
 
+
+// the .on method creates an event listener, which waits for when clicks on it it triggers an anonymous function
