@@ -30,5 +30,5 @@ $(".outerLightBox").on("click",function(e){
 });
 
 
-
+// .attr()this method can get or set a specified attribut and its vlue to get the value of an attribute you spedify the name of the attribute in the parenthese.
 // the .on method creates an event listener, which waits for when clicks on it it triggers an anonymous function
